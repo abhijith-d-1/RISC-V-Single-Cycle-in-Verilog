@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Single_Cycle_Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Single_Cycle_Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,400.001 ns"></ZoomEndTime>
+      <Cursor1Time time="874.720 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/Single_Cycle_Top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/PC_module/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/PC_module/PC_Next" type="array">
+         <obj_property name="ElementShortName">PC_Next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_Next[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group427" type="group">
+      <obj_property name="label">Instruction Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Instr_memory_module/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Instr_memory_module/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group429" type="group">
+      <obj_property name="label">Register file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Reg_file_module/A1" type="array">
+         <obj_property name="ElementShortName">A1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Reg_file_module/A2" type="array">
+         <obj_property name="ElementShortName">A2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Reg_file_module/A3" type="array">
+         <obj_property name="ElementShortName">A3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Reg_file_module/RD1" type="array">
+         <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Reg_file_module/RD2" type="array">
+         <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/CU_Top_module/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Reg_file_module/WD3" type="array">
+         <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group430" type="group">
+      <obj_property name="label">Sign extend</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Sign_extend_module/in" type="array">
+         <obj_property name="ElementShortName">in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Sign_extend_module/Imm_Src" type="array">
+         <obj_property name="ElementShortName">Imm_Src[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Imm_Src[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Sign_extend_module/out" type="array">
+         <obj_property name="ElementShortName">out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group432" type="group">
+      <obj_property name="label">Mux Reg to ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Mux_reg_alu/a" type="array">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Mux_reg_alu/b" type="array">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/CU_Top_module/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Mux_reg_alu/c" type="array">
+         <obj_property name="ElementShortName">c[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group433" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/ALU_module/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/ALU_module/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/ALU_module/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/ALU_module/Result" type="array">
+         <obj_property name="ElementShortName">Result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group434" type="group">
+      <obj_property name="label">Data memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Data_memory_module/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Data_memory_module/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/CU_Top_module/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/Data_memory_module/WD" type="array">
+         <obj_property name="ElementShortName">WD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group436" type="group">
+      <obj_property name="label">Mux Data to Reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/mux_result/a" type="array">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/mux_result/b" type="array">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/CU_Top_module/ResultSrc" type="logic">
+         <obj_property name="ElementShortName">ResultSrc</obj_property>
+         <obj_property name="ObjectShortName">ResultSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Single_Cycle_Top_tb/Single_Cycle_Top_module/mux_result/c" type="array">
+         <obj_property name="ElementShortName">c[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

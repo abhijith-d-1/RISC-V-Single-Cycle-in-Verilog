@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/ALU.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/ALU_decoder.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/CU_Top.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/Data_mem.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/Instr_mem.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/Main_decoder.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/Mux.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/PC.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/PC_Adder.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/RISC_V_Top.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/Reg_file.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sources_1/new/Sign_extend.v" \
+"../../../../RISC_V_Single_Cycle.srcs/sim_1/new/RISC_V_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
